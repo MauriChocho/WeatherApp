@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b18f25cfd1.js" crossorigin="anonymous"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="../public/css/stlyle.css">
+    <title>Weather APP</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchBox">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fas fa-search"></button>
+        </div>
+        <div class="notFound">
+            <img src="../public/img/404.png" alt="LocationNotFound">
+            <p>Ups! Invalid Location</p>
+        </div>
+
+        <div class="weatherBox">
+            <img src="" alt="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weatherDetails">
+            <div class="humidity">
+                <i class="fas fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fas fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
